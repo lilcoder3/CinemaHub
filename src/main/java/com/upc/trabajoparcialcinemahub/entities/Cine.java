@@ -26,5 +26,4 @@ public class Cine {
 
     @ManyToMany(mappedBy = "cines")
     private List<Pelicula> peliculas;
-
 }
