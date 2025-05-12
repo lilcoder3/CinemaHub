@@ -21,4 +21,5 @@ public class Entrada {
     @ManyToOne
     @JoinColumn(name = "id_funcion")
     private Funcion funcion;
+    
 }
